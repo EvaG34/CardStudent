@@ -1,0 +1,32 @@
+.card {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    border: 2px solid #333;
+    background-color: #D9D0C1;
+    width: fit-content;
+}
+
+.card-photo img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    border: 1px solid #ccc;
+    display: block;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.card-field {
+    margin: 0;
+    font-size: 14px;
+    font-family: italic;
+}
+
+.label {
+    font-weight: bold;
+}
